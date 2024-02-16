@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/honejzy/.nvm/versions/node/v16.20.2/bin/node',
+1 verbose cli   '/home/honejzy/.nvm/versions/node/v16.20.2/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   '--',
+1 verbose cli   'suneditor-yopta',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version',
+1 verbose cli   'time'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v16.20.2
+4 silly mapToRegistry name suneditor-yopta
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'suneditor-yopta',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'suneditor-yopta',
+7 silly mapToRegistry   name: 'suneditor-yopta',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag'
+7 silly mapToRegistry }
+8 silly mapToRegistry uri https://registry.npmjs.org/suneditor-yopta
+9 verbose get https://registry.npmjs.org/suneditor-yopta not expired, no request
+10 verbose stack Error: Unpublished by undefined on 2024-02-16T16:41:09.257Z
+10 verbose stack     at /home/honejzy/.nvm/versions/node/v16.20.2/lib/node_modules/npm/lib/view.js:115:14
+10 verbose stack     at CachingRegistryClient.get_ (/home/honejzy/.nvm/versions/node/v16.20.2/lib/node_modules/npm/lib/cache/caching-client.js:126:16)
+10 verbose stack     at /home/honejzy/.nvm/versions/node/v16.20.2/lib/node_modules/npm/lib/cache/caching-client.js:91:14
+10 verbose stack     at /home/honejzy/.nvm/versions/node/v16.20.2/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+10 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read_file_context:68:3)
+11 verbose statusCode 404
+12 verbose pkgid suneditor-yopta
+13 verbose cwd /home/honejzy/dmitry/work/suneditor-react-yopta
+14 error Linux 5.4.0-150-generic
+15 error argv "/home/honejzy/.nvm/versions/node/v16.20.2/bin/node" "/home/honejzy/.nvm/versions/node/v16.20.2/bin/npm" "view" "--json" "--" "suneditor-yopta" "description" "dist-tags.latest" "homepage" "version" "time"
+16 error node v16.20.2
+17 error npm  v3.10.10
+18 error code E404
+19 error 404 Unpublished by undefined on 2024-02-16T16:41:09.257Z
+20 error 404
+21 error 404 'suneditor-yopta' is not in the npm registry.
+22 error 404 You should bug the author to publish it (or use the name yourself!)
+23 error 404 Note that you can also install from a
+24 error 404 tarball, folder, http url, or git url.
+25 verbose exit [ 1, true ]
